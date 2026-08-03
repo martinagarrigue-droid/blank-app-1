@@ -162,7 +162,13 @@ SOCIEDADES = {
         "socios": {"min": 2, "max": 50, "detalle": "Tope legal de 50 socios (art. 146)."},
         "responsabilidad": "Limitada al capital suscripto, con garantía solidaria entre socios por la integración total de los aportes (art. 150).",
         "capital": {
-            "minimo": "No hay un mínimo legal fijo desde la derogación del art. 150 anterior; se exige que sea adecuado al objeto social.",
+            "minimo": (
+                "La LGS no fija un piso en pesos: solo exige que el capital sea "
+                "'adecuado al objeto social'. En la práctica, los registros (IGJ y "
+                "registros provinciales) verifican que el monto guarde relación "
+                "razonable con la actividad declarada, pudiendo observar capitales "
+                "manifiestamente insuficientes."
+            ),
             "aportes": "Deben ser obligaciones de dar, integrados en dinero o en especie; el dinerario debe integrarse en un 25% al constituir y el resto en 2 años.",
         },
         "organos": {
@@ -261,7 +267,15 @@ SOCIEDADES = {
         "socios": {"min": 1, "max": None, "detalle": "Unipersonal o pluripersonal, sin tope máximo."},
         "responsabilidad": "Limitada al capital suscripto.",
         "capital": {
-            "minimo": "Equivalente a 2 veces el Salario Mínimo Vital y Móvil (art. 40, Ley 27.349).",
+            "minimo": (
+                "Equivalente a 2 veces el Salario Mínimo Vital y Móvil (SMVM) vigente "
+                "al momento de la constitución (art. 40, Ley 27.349). ⚠️ Este monto es "
+                "variable: se actualiza automáticamente cada vez que el Consejo Nacional "
+                "del Empleo, la Productividad y el SMVM modifica el salario mínimo "
+                "(varias veces al año). No tomes el valor en pesos de ningún artículo "
+                "o app como definitivo: verificá el SMVM vigente en igj.gob.ar o en el "
+                "Boletín Oficial antes de constituir la sociedad."
+            ),
             "aportes": "Igual que en la SA en cuanto a integración de dinerarios (25% al constituir); admite aportes irrevocables y capital en distintas clases de acciones con gran flexibilidad estatutaria.",
         },
         "organos": {

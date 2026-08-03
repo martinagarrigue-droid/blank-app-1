@@ -95,7 +95,49 @@ en la Sección IV.
 """,
     },
     {
-        "titulo": "5. Sociedad unipersonal",
+        "titulo": "5. Nulidad de la sociedad y de los vínculos societarios",
+        "articulos": "Arts. 16 a 20, LGS",
+        "contenido": """
+La LGS regula la nulidad con reglas propias, distintas de las generales del
+CCCN, porque busca proteger la subsistencia de la empresa y a los terceros
+de buena fe frente a vicios que afectan sólo a algunos socios.
+
+- **Principio de divisibilidad del vínculo (art. 16)**: la nulidad o
+  anulación que afecte el vínculo de alguno de los socios **no produce la
+  nulidad, anulación o resolución del contrato**, salvo que la
+  participación o la prestación de ese socio deba considerarse esencial,
+  atendiendo a las circunstancias, o se trate de una sociedad de dos
+  socios (en cuyo caso el vicio en el vínculo de uno de ellos hace anulable
+  el contrato) o de socios cuya pluralidad es esencial para el tipo (p. ej.,
+  el único comanditado o el único comanditario).
+- **Objeto ilícito (art. 18)**: la sociedad con objeto ilícito es **nula de
+  nulidad absoluta**. Los terceros de buena fe pueden alegar la existencia
+  de la sociedad contra los socios, pero no éstos entre sí ni contra
+  terceros. Declarada la nulidad, se procede a la liquidación, el
+  remanente ingresa al patrimonio estatal para el fomento de la educación
+  y los socios responden ilimitada y solidariamente por el pasivo social y
+  los perjuicios causados, sin poder invocar la existencia de la sociedad
+  ni siquiera para demandar a terceros o entre sí.
+- **Objeto lícito con actividad ilícita (art. 19)**: cuando el objeto
+  social es lícito pero la sociedad **realiza actividades ilícitas**, se
+  procede a su disolución y liquidación a pedido de parte o de oficio;
+  igual sanción de irrepetibilidad del remanente y de responsabilidad
+  solidaria e ilimitada de los socios que conocían la actividad, salvo
+  quienes acrediten buena fe.
+- **Objeto prohibido en razón del tipo (art. 20)**: ciertas actividades
+  sólo pueden desarrollarse bajo determinados tipos sociales (p. ej.,
+  entidades financieras o de seguros, que requieren SA). Su
+  incumplimiento acarrea la nulidad, aplicándose las reglas del art. 19.
+- **Atipicidad y omisión de requisitos esenciales tipificantes (art. 17,
+  según reforma de la Ley 26.994)**: hoy **no** producen la nulidad de la
+  sociedad, sino que la incluyen en el régimen de la **Sección IV** —éste
+  es uno de los cambios más importantes de 2015, que reemplazó la vieja
+  sanción de nulidad/anulabilidad por un régimen de inclusión en un
+  estatuto residual más flexible.
+""",
+    },
+    {
+        "titulo": "6. Sociedad unipersonal",
         "articulos": "Art. 1°, LGS (modif. Ley 26.994); Ley 27.349 (SAS)",
         "contenido": """
 Antes de 2015, la LGS exigía un **mínimo de dos socios**. La reforma de la
@@ -111,7 +153,7 @@ práctica volvió a esta última poco utilizada.
 """,
     },
     {
-        "titulo": "6. Affectio societatis, aportes y capital social",
+        "titulo": "7. Affectio societatis, aportes y capital social",
         "articulos": "Arts. 1°, 37, 38-51, LGS",
         "contenido": """
 El **"affectio societatis"** es la voluntad de cada socio de colaborar
@@ -133,7 +175,7 @@ obligaciones de dar, art. 39).
 """,
     },
     {
-        "titulo": "7. Órganos sociales: administración, gobierno y fiscalización",
+        "titulo": "8. Órganos sociales: administración, gobierno y fiscalización",
         "articulos": "Variable según el tipo",
         "contenido": """
 Toda sociedad, cualquiera sea su tipo, se estructura -con mayor o menor
@@ -154,7 +196,7 @@ formalidad- en tres funciones:
 """,
     },
     {
-        "titulo": "8. Responsabilidad de los socios: panorama comparado",
+        "titulo": "9. Responsabilidad de los socios: panorama comparado",
         "articulos": "Arts. 56, 125, 134, 141, 146, 163, 315, LGS; art. 39, Ley 27.349",
         "contenido": """
 La responsabilidad de los socios frente a las obligaciones sociales varía
@@ -173,7 +215,7 @@ la personalidad jurídica** (art. 54 LGS) o por mal desempeño del cargo
 """,
     },
     {
-        "titulo": "9. Resolución parcial, disolución y liquidación",
+        "titulo": "10. Resolución parcial, disolución y liquidación",
         "articulos": "Arts. 89 a 112 (disolución/liquidación), 91-93 (resolución parcial), LGS",
         "contenido": """
 - **Resolución parcial**: supuestos en que un vínculo societario particular
@@ -195,7 +237,7 @@ la personalidad jurídica** (art. 54 LGS) o por mal desempeño del cargo
 """,
     },
     {
-        "titulo": "10. Transformación, fusión y escisión",
+        "titulo": "11. Transformación, fusión y escisión",
         "articulos": "Arts. 74 a 88, LGS",
         "contenido": """
 - **Transformación** (arts. 74-81): una sociedad adopta otro de los tipos
@@ -216,7 +258,7 @@ las Ganancias).
 """,
     },
     {
-        "titulo": "11. Sociedades constituidas en el extranjero",
+        "titulo": "12. Sociedades constituidas en el extranjero",
         "articulos": "Arts. 118 a 124, LGS",
         "contenido": """
 Se rigen, en cuanto a su existencia y forma, por la ley del lugar de
@@ -235,7 +277,7 @@ para eludir el régimen societario argentino).
 """,
     },
     {
-        "titulo": "12. Sociedades entre cónyuges y otras normas del CCCN vinculadas",
+        "titulo": "13. Sociedades entre cónyuges y otras normas del CCCN vinculadas",
         "articulos": "Art. 27, LGS; arts. 1002 inc. d, 1003, CCCN",
         "contenido": """
 Con la reforma de 2015 se eliminó la vieja prohibición de que los cónyuges
@@ -249,6 +291,49 @@ El CCCN también aporta el marco general de **capacidad** (arts. 22-50),
 **contratos** (arts. 957 y ss.) y **persona jurídica** (arts. 141-224), que
 se aplican supletoriamente a las sociedades en todo lo no previsto
 específicamente por la LGS (art. 150 CCCN).
+""",
+    },
+    {
+        "titulo": "14. Contratos asociativos: la 'no sociedad' del CCCN",
+        "articulos": "Arts. 1442 a 1478, CCCN",
+        "contenido": """
+Un error frecuente a nivel universitario es confundir "sociedad" con
+cualquier acuerdo de colaboración empresaria. El CCCN regula, por
+separado, los **contratos asociativos**, que **no constituyen sociedad**,
+**no son sujetos de derecho** y **no están sometidos a los requisitos de
+forma exigidos para las sociedades** (art. 1442). Esta distinción es clave
+para el análisis de casos: si un enunciado describe un acuerdo sin
+personalidad jurídica propia, probablemente no estemos frente a una
+sociedad sino frente a alguna de estas figuras.
+
+- **Negocio en participación** (arts. 1448-1450): uno o más gestores
+  ejercen a nombre propio una actividad, mientras otros ("partícipes")
+  aportan fondos u otros bienes sin actuar frente a terceros. Carece de
+  denominación, patrimonio propio y personalidad jurídica; no requiere
+  inscripción.
+- **Agrupaciones de colaboración** (arts. 1453-1462): contratos entre
+  sociedades o empresarios individuales para establecer una organización
+  común destinada a facilitar o desarrollar actividades de sus miembros,
+  sin perseguir fines de lucro para sí y sin ejercer poder de dirección
+  sobre la actividad de sus integrantes.
+- **Uniones transitorias (UT)** (arts. 1463-1469): reúnen a dos o más
+  personas para el desarrollo o ejecución de una obra, servicio o
+  suministro concreto, dentro o fuera del país (heredera funcional de las
+  antiguas "UTE" de la Ley 19.550, hoy trasladada al CCCN). Muy usadas en
+  consorcios de empresas constructoras para grandes obras públicas.
+- **Consorcios de cooperación** (arts. 1470-1478): organizan una actividad
+  común entre sus miembros, con el propósito de facilitar o desarrollar
+  determinadas fases de la actividad empresarial de sus integrantes, o de
+  mejorar o acrecentar sus resultados.
+
+**Rasgos comunes que los distinguen de una sociedad:**
+1. No son sujetos de derecho ni tienen personalidad jurídica propia.
+2. No requieren inscripción registral para existir entre las partes.
+3. Los efectos del contrato se rigen por lo pactado y, supletoriamente,
+   por las normas del CCCN, sin aplicación del régimen societario de la
+   LGS.
+4. Cada miembro responde por su propia actuación frente a terceros, salvo
+   pacto o disposición legal en contrario.
 """,
     },
 ]
