@@ -42,14 +42,23 @@ div[data-testid="stExpander"] summary { font-weight: 600; }
 
 .stTabs [data-baseweb="tab-list"] { border-bottom: 2px solid var(--ink); gap: 0; }
 .stTabs [data-baseweb="tab"] {
-    border: 1px solid var(--gray-300);
+    border: 1px solid var(--ink);
     border-bottom: none;
-    background: var(--gray-50);
-    color: var(--gray-600);
-    font-weight: 600;
+    background: var(--paper);
+    font-weight: 700;
     border-radius: 0 !important;
+    opacity: 1 !important;
+    padding: 10px 18px !important;
 }
-.stTabs [aria-selected="true"] { background: var(--ink) !important; color: var(--paper) !important; }
+.stTabs [data-baseweb="tab"] p {
+    color: var(--ink) !important;
+    font-weight: 700 !important;
+    opacity: 1 !important;
+}
+.stTabs [aria-selected="true"] { background: var(--ink) !important; }
+.stTabs [aria-selected="true"] p { color: var(--paper) !important; }
+.stTabs [data-baseweb="tab"]:hover { background: var(--gray-200); }
+.stTabs [aria-selected="true"]:hover { background: var(--ink) !important; }
 
 a, .stMarkdown a { color: var(--accent) !important; }
 
