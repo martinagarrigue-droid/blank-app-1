@@ -12,10 +12,10 @@ import random
 import pandas as pd
 import streamlit as st
 
-from data.sociedades_data import SOCIEDADES, ORDEN_TIPOS, GRUPOS
-from data.general_data import MARCO_GENERAL
-from data.quiz_data import QUIZ
-from data.wizard_data import WIZARD_PREGUNTAS, DISCLAIMER_WIZARD
+from sociedades_data import SOCIEDADES, ORDEN_TIPOS, GRUPOS
+from general_data import MARCO_GENERAL
+from quiz_data import QUIZ
+from wizard_data import WIZARD_PREGUNTAS, DISCLAIMER_WIZARD
 
 # --------------------------------------------------------------------------
 # Configuración general de la página
