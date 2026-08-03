@@ -83,41 +83,51 @@ a, .stMarkdown a { color: var(--accent) !important; }
 .module-box p { color: var(--gray-600); font-size: 0.92rem; }
 </style>
 """
-st.markdown(CSS, unsafe_allow_html=True)
 
-st.markdown('<div class="tag tag-accent">CCCN · LGS 19.550 · LEY 27.349</div>', unsafe_allow_html=True)
-st.title("SOCIEDADES CIVILES Y COMERCIALES EN ARGENTINA")
-st.markdown("Plataforma de estudio jurídico — nivel universitario y profesional. Régimen legal, doctrina y jurisprudencia.")
-st.markdown('<div class="rule"></div>', unsafe_allow_html=True)
 
-st.subheader("MÓDULOS")
+def home():
+    st.markdown(CSS, unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+    st.markdown('<div class="tag tag-accent">CCCN · LGS 19.550 · LEY 27.349</div>', unsafe_allow_html=True)
+    st.title("SOCIEDADES CIVILES Y COMERCIALES EN ARGENTINA")
+    st.markdown("Plataforma de estudio jurídico — nivel universitario y profesional. Régimen legal, doctrina y jurisprudencia.")
+    st.markdown('<div class="rule"></div>', unsafe_allow_html=True)
 
-with col1:
-    st.markdown(
-        """<div class="module-box">
-        <h4>01 · FICHAS SOCIETARIAS</h4>
-        <p>Los 8 tipos de la LGS: régimen legal, doctrina y jurisprudencia clave.</p>
-        </div>""",
-        unsafe_allow_html=True,
-    )
-    st.page_link("pages/1_Fichas_Societarias.py", label="Ingresar →", icon=None)
+    st.subheader("MÓDULOS")
 
-with col2:
-    st.markdown(
-        """<div class="module-box">
-        <h4>02 · EN CONSTRUCCIÓN</h4>
-        <p>Marco general, comparador, wizard, quiz y buscador — próximos módulos.</p>
-        </div>""",
-        unsafe_allow_html=True,
-    )
+    col1, col2, col3 = st.columns(3)
 
-with col3:
-    st.markdown(
-        """<div class="module-box">
-        <h4>03 · EN CONSTRUCCIÓN</h4>
-        <p>Reservado para futuros módulos.</p>
-        </div>""",
-        unsafe_allow_html=True,
-    )
+    with col1:
+        st.markdown(
+            """<div class="module-box">
+            <h4>01 · FICHAS SOCIETARIAS</h4>
+            <p>Los 8 tipos de la LGS: régimen legal, doctrina y jurisprudencia clave.</p>
+            </div>""",
+            unsafe_allow_html=True,
+        )
+        st.page_link(fichas_page, label="Ingresar →", icon=None)
+
+    with col2:
+        st.markdown(
+            """<div class="module-box">
+            <h4>02 · EN CONSTRUCCIÓN</h4>
+            <p>Marco general, comparador, wizard, quiz y buscador — próximos módulos.</p>
+            </div>""",
+            unsafe_allow_html=True,
+        )
+
+    with col3:
+        st.markdown(
+            """<div class="module-box">
+            <h4>03 · EN CONSTRUCCIÓN</h4>
+            <p>Reservado para futuros módulos.</p>
+            </div>""",
+            unsafe_allow_html=True,
+        )
+
+
+home_page = st.Page(home, title="Inicio", default=True)
+fichas_page = st.Page("pages/1_Fichas_Societarias.py", title="Fichas Societarias")
+
+pg = st.navigation([home_page, fichas_page])
+pg.run()
