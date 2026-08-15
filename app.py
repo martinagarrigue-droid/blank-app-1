@@ -120,16 +120,18 @@ def home():
     with col3:
         st.markdown(
             """<div class="module-box">
-            <h4>03 · EN CONSTRUCCIÓN</h4>
-            <p>Reservado para futuros módulos.</p>
+            <h4>03 · UNIDAD 1</h4>
+            <p>Derecho Comercial: categoría histórica, tecnologías disruptivas y personas jurídicas privadas.</p>
             </div>""",
             unsafe_allow_html=True,
         )
+        st.page_link(unidad1_page, label="Ingresar →", icon=None)
 
 
 home_page = st.Page(home, title="Inicio", default=True)
 fichas_page = st.Page("pages/1_Fichas_Societarias.py", title="Fichas Societarias")
 comparador_page = st.Page("pages/2_Comparador_de_Tipos.py", title="Comparador de Tipos")
+unidad1_page = st.Page("pages/3_Unidad_1.py", title="Unidad 1")
 
-pg = st.navigation([home_page, fichas_page, comparador_page])
+pg = st.navigation([home_page, fichas_page, comparador_page, unidad1_page])
 pg.run()
